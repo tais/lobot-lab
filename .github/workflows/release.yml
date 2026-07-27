@@ -78,3 +78,41 @@ jobs:
           releaseDraft: true
           prerelease: false
           args: ${{ matrix.args }}
+
+      - name: Package portable Windows ZIP
+        if: matrix.platform == 'windows-latest'
+        shell: pwsh
+        run: |
+          $version = "${{ github.ref_name }}".TrimStart("v")
+          $packageDir = Join-Path $env:RUNNER_TEMP "LOBOT Lab"
+          $archive = Join-Path $PWD "LOBOT.Lab_${version}_windows-x64-portable.zip"
+
+          New-Item -ItemType Directory -Path $packageDir -Force | Out-Null
+          Copy-Item "src-tauri/target/release/lobot-lab.exe" (Join-Path $packageDir "LOBOT Lab.exe")
+          Copy-Item "LICENSE" (Join-Path $packageDir "LICENSE.txt")
+
+          @"
+          LOBOT Lab $version - portable Windows x64
+
+          Run "LOBOT Lab.exe" directly; no installation is required.
+
+          LOBOT Lab does not include Jagged Alliance 2 game data. Use Data roots
+          to select a legally obtained JA2 v1.13 installation and any mod
+          overlays.
+
+          This build is unsigned, so Windows may display a security warning.
+          The Microsoft Edge WebView2 Runtime is required and is normally
+          already present on supported Windows systems.
+
+          Project: https://github.com/tais/lobot-lab
+          "@ | Set-Content (Join-Path $packageDir "README.txt")
+
+          Compress-Archive -Path $packageDir -DestinationPath $archive -CompressionLevel Optimal
+          "PORTABLE_ARCHIVE=$archive" | Out-File -FilePath $env:GITHUB_ENV -Append
+
+      - name: Upload portable Windows ZIP
+        if: matrix.platform == 'windows-latest'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload "${{ github.ref_name }}" "$env:PORTABLE_ARCHIVE" --clobber
