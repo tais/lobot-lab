@@ -30,7 +30,7 @@
     "@types/node": "^26",
     "svelte": "^5",
     "svelte-check": "^4",
-    "typescript": "^7",
+    "typescript": "^5",
     "vite": "^8"
   }
 }
