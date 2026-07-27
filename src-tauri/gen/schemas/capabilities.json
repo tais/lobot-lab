@@ -1,0 +1,1 @@
+{"default":{"identifier":"default","description":"Capabilities for the LOBOT Lab main window.","local":true,"windows":["main"],"permissions":["core:default","dialog:default","dialog:allow-open"]}}

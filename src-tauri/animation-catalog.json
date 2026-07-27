@@ -1,0 +1,4056 @@
+[
+  {
+    "id": "WALKING",
+    "label": "WALKING",
+    "base": {
+      "REGMALE": "RGMBASICWALKING",
+      "BIGMALE": "BGMWALKING",
+      "STOCKYMALE": "RGMBASICWALKING",
+      "REGFEMALE": "RGFWALKING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_WALK",
+      "BIGMALE": "BGMNOTHING_WALK",
+      "STOCKYMALE": "RGMNOTHING_WALK",
+      "REGFEMALE": "RGFNOTHING_WALK"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_WALK",
+      "BIGMALE": "BGMWATER_R_WALK",
+      "STOCKYMALE": "RGMWATER_R_WALK",
+      "REGFEMALE": "RGFWATER_R_WALK"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_WALK",
+      "BIGMALE": "BGMWATER_N_WALK",
+      "STOCKYMALE": "RGMWATER_N_WALK",
+      "REGFEMALE": "RGFWATER_N_WALK"
+    }
+  },
+  {
+    "id": "STANDING",
+    "label": "STANDING",
+    "base": {
+      "REGMALE": "RGMSTANDING",
+      "BIGMALE": "BGMSTANDING",
+      "STOCKYMALE": "RGMSTANDING",
+      "REGFEMALE": "RGFSTANDING"
+    },
+    "item": {
+      "REGMALE": "RGMPISTOLBREATH",
+      "BIGMALE": "BGMPISTOLBREATH",
+      "STOCKYMALE": "RGMPISTOLBREATH",
+      "REGFEMALE": "RGFPISTOLBREATH"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_STD",
+      "BIGMALE": "BGMWATER_R_STD",
+      "STOCKYMALE": "RGMWATER_R_STD",
+      "REGFEMALE": "RGFWATER_R_STD"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_STD",
+      "BIGMALE": "BGMWATER_N_STD",
+      "STOCKYMALE": "RGMWATER_N_STD",
+      "REGFEMALE": "RGFWATER_N_STD"
+    }
+  },
+  {
+    "id": "KNEEL_DOWN",
+    "label": "KNEEL DOWN",
+    "base": {
+      "REGMALE": "RGMCROUCHING",
+      "BIGMALE": "BGMCROUCHING",
+      "STOCKYMALE": "RGMCROUCHING",
+      "REGFEMALE": "RGFCROUCHING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_CROUCH",
+      "BIGMALE": "BGMNOTHING_CROUCH",
+      "STOCKYMALE": "RGMNOTHING_CROUCH",
+      "REGFEMALE": "RGFNOTHING_CROUCH"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CROUCHING",
+    "label": "CROUCHED",
+    "base": {
+      "REGMALE": "RGMCROUCHING",
+      "BIGMALE": "BGMCROUCHING",
+      "STOCKYMALE": "RGMCROUCHING",
+      "REGFEMALE": "RGFCROUCHING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_CROUCH",
+      "BIGMALE": "BGMNOTHING_CROUCH",
+      "STOCKYMALE": "RGMNOTHING_CROUCH",
+      "REGFEMALE": "RGFNOTHING_CROUCH"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "KNEEL_UP",
+    "label": "KNEEL UP",
+    "base": {
+      "REGMALE": "RGMCROUCHING",
+      "BIGMALE": "BGMCROUCHING",
+      "STOCKYMALE": "RGMCROUCHING",
+      "REGFEMALE": "RGFCROUCHING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_CROUCH",
+      "BIGMALE": "BGMNOTHING_CROUCH",
+      "STOCKYMALE": "RGMNOTHING_CROUCH",
+      "REGFEMALE": "RGFNOTHING_CROUCH"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SWATTING",
+    "label": "SWAT",
+    "base": {
+      "REGMALE": "RGMSNEAKING",
+      "BIGMALE": "BGMSNEAKING",
+      "STOCKYMALE": "RGMSNEAKING",
+      "REGFEMALE": "RGFSNEAKING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_SWAT",
+      "BIGMALE": "BGMNOTHING_SWAT",
+      "STOCKYMALE": "RGMNOTHING_SWAT",
+      "REGFEMALE": "RGFNOTHING_SWAT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "RUNNING",
+    "label": "RUN",
+    "base": {
+      "REGMALE": "RGMRUNNING",
+      "BIGMALE": "BGMRUNNING",
+      "STOCKYMALE": "RGMRUNNING",
+      "REGFEMALE": "RGFRUNNING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_RUN",
+      "BIGMALE": "BGMNOTHING_RUN",
+      "STOCKYMALE": "RGMNOTHING_RUN",
+      "REGFEMALE": "RGFNOTHING_RUN"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_WALK",
+      "BIGMALE": "BGMWATER_R_WALK",
+      "STOCKYMALE": "RGMWATER_R_WALK",
+      "REGFEMALE": "RGFWATER_R_WALK"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_WALK",
+      "BIGMALE": "BGMWATER_N_WALK",
+      "STOCKYMALE": "RGMWATER_N_WALK",
+      "REGFEMALE": "RGFWATER_N_WALK"
+    }
+  },
+  {
+    "id": "PRONE_DOWN",
+    "label": "PRONE DOWN",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CRAWLING",
+    "label": "CRAWL",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_UP",
+    "label": "PRONE UP",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE",
+    "label": "PRONE",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "READY_RIFLE_STAND",
+    "label": "READY AIM (R) STAND",
+    "base": {
+      "REGMALE": "RGMSTANDAIM",
+      "BIGMALE": "BGMSTANDAIM2",
+      "STOCKYMALE": "RGMSTANDAIM",
+      "REGFEMALE": "RGFSTANDAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_S_SHOT",
+      "BIGMALE": "BGMHANDGUN_S_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_S_SHOT",
+      "REGFEMALE": "RGFHANDGUN_S_SHOT"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_AIM",
+      "BIGMALE": "BGMWATER_R_AIM",
+      "STOCKYMALE": "RGMWATER_R_AIM",
+      "REGFEMALE": "RGFWATER_R_AIM"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_AIM",
+      "BIGMALE": "BGMWATER_N_AIM",
+      "STOCKYMALE": "RGMWATER_N_AIM",
+      "REGFEMALE": "RGFWATER_N_AIM"
+    }
+  },
+  {
+    "id": "AIM_RIFLE_STAND",
+    "label": "AIM (R) STAND",
+    "base": {
+      "REGMALE": "RGMSTANDAIM",
+      "BIGMALE": "BGMSTANDAIM2",
+      "STOCKYMALE": "RGMSTANDAIM",
+      "REGFEMALE": "RGFSTANDAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_S_SHOT",
+      "BIGMALE": "BGMHANDGUN_S_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_S_SHOT",
+      "REGFEMALE": "RGFHANDGUN_S_SHOT"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_AIM",
+      "BIGMALE": "BGMWATER_R_AIM",
+      "STOCKYMALE": "RGMWATER_R_AIM",
+      "REGFEMALE": "RGFWATER_R_AIM"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_AIM",
+      "BIGMALE": "BGMWATER_N_AIM",
+      "STOCKYMALE": "RGMWATER_N_AIM",
+      "REGFEMALE": "RGFWATER_N_AIM"
+    }
+  },
+  {
+    "id": "SHOOT_RIFLE_STAND",
+    "label": "SHOOT (R) STAND",
+    "base": {
+      "REGMALE": "RGMSTANDAIM",
+      "BIGMALE": "BGMSTANDAIM2",
+      "STOCKYMALE": "RGMSTANDAIM",
+      "REGFEMALE": "RGFSTANDAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_S_SHOT",
+      "BIGMALE": "BGMHANDGUN_S_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_S_SHOT",
+      "REGFEMALE": "RGFHANDGUN_S_SHOT"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_AIM",
+      "BIGMALE": "BGMWATER_R_AIM",
+      "STOCKYMALE": "RGMWATER_R_AIM",
+      "REGFEMALE": "RGFWATER_R_AIM"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_AIM",
+      "BIGMALE": "BGMWATER_N_AIM",
+      "STOCKYMALE": "RGMWATER_N_AIM",
+      "REGFEMALE": "RGFWATER_N_AIM"
+    }
+  },
+  {
+    "id": "END_RIFLE_STAND",
+    "label": "END RIFLE STAND",
+    "base": {
+      "REGMALE": "RGMSTANDAIM",
+      "BIGMALE": "BGMSTANDAIM2",
+      "STOCKYMALE": "RGMSTANDAIM",
+      "REGFEMALE": "RGFSTANDAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_S_SHOT",
+      "BIGMALE": "BGMHANDGUN_S_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_S_SHOT",
+      "REGFEMALE": "RGFHANDGUN_S_SHOT"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_AIM",
+      "BIGMALE": "BGMWATER_R_AIM",
+      "STOCKYMALE": "RGMWATER_R_AIM",
+      "REGFEMALE": "RGFWATER_R_AIM"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_AIM",
+      "BIGMALE": "BGMWATER_N_AIM",
+      "STOCKYMALE": "RGMWATER_N_AIM",
+      "REGFEMALE": "RGFWATER_N_AIM"
+    }
+  },
+  {
+    "id": "START_SWAT",
+    "label": "CROUCH TO SWAT",
+    "base": {
+      "REGMALE": "RGMSNEAKING",
+      "BIGMALE": "BGMSNEAKING",
+      "STOCKYMALE": "RGMSNEAKING",
+      "REGFEMALE": "RGFSNEAKING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_SWAT",
+      "BIGMALE": "BGMNOTHING_SWAT",
+      "STOCKYMALE": "RGMNOTHING_SWAT",
+      "REGFEMALE": "RGFNOTHING_SWAT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_SWAT",
+    "label": "SWAT TO CROUCH",
+    "base": {
+      "REGMALE": "RGMSNEAKING",
+      "BIGMALE": "BGMSNEAKING",
+      "STOCKYMALE": "RGMSNEAKING",
+      "REGFEMALE": "RGFSNEAKING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_SWAT",
+      "BIGMALE": "BGMNOTHING_SWAT",
+      "STOCKYMALE": "RGMNOTHING_SWAT",
+      "REGFEMALE": "RGFNOTHING_SWAT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FLYBACK_HIT",
+    "label": "FLYBACK HIT",
+    "base": {
+      "REGMALE": "RGMHITHARD",
+      "BIGMALE": "BGMHITHARD",
+      "STOCKYMALE": "RGMHITHARD",
+      "REGFEMALE": "RGFHITHARD"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "READY_RIFLE_PRONE",
+    "label": "READY (R) PRONE",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "AIM_RIFLE_PRONE",
+    "label": "AIM (R) PRONE",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SHOOT_RIFLE_PRONE",
+    "label": "SHOOT (R) PRONE",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_RIFLE_PRONE",
+    "label": "END (R) AIM PRONE",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLBACK_DEATHTWICH",
+    "label": "DEATH TWITCH ONE",
+    "base": {
+      "REGMALE": "RGMHITHARD",
+      "BIGMALE": "BGMHITHARD",
+      "STOCKYMALE": "RGMHITHARD",
+      "REGFEMALE": "RGFHITHARD"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GENERIC_HIT_STAND",
+    "label": "GENERIC HIT STAND",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "BIGMALE": "BGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND",
+      "REGFEMALE": "RGFHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FLYBACK_HIT_BLOOD_STAND",
+    "label": "FLYBACK HIT w/B",
+    "base": {
+      "REGMALE": "RGMHITHARDBLOOD",
+      "BIGMALE": "BGMHITHARDBLOOD",
+      "STOCKYMALE": "RGMHITHARDBLOOD",
+      "REGFEMALE": "RGFHITHARDBLOOD"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FLYBACK_HIT_DEATH",
+    "label": "FLYBACK HIT DEATH",
+    "base": {
+      "REGMALE": "RGMHITHARD",
+      "BIGMALE": "BGMHITHARD",
+      "STOCKYMALE": "RGMHITHARD",
+      "REGFEMALE": "RGFHITHARD"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "READY_RIFLE_CROUCH",
+    "label": "READY (R) CROUCH",
+    "base": {
+      "REGMALE": "RGMCROUCHAIM",
+      "BIGMALE": "BGMCROUCHAIM",
+      "STOCKYMALE": "RGMCROUCHAIM",
+      "REGFEMALE": "RGFCROUCHAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_C_SHOT",
+      "BIGMALE": "BGMHANDGUN_C_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_C_SHOT",
+      "REGFEMALE": "RGFHANDGUN_C_SHOT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "AIM_RIFLE_CROUCH",
+    "label": "AIM (R) CROUCH",
+    "base": {
+      "REGMALE": "RGMCROUCHAIM",
+      "BIGMALE": "BGMCROUCHAIM",
+      "STOCKYMALE": "RGMCROUCHAIM",
+      "REGFEMALE": "RGFCROUCHAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_C_SHOT",
+      "BIGMALE": "BGMHANDGUN_C_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_C_SHOT",
+      "REGFEMALE": "RGFHANDGUN_C_SHOT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SHOOT_RIFLE_CROUCH",
+    "label": "SHOOT (R) CROUCH",
+    "base": {
+      "REGMALE": "RGMCROUCHAIM",
+      "BIGMALE": "BGMCROUCHAIM",
+      "STOCKYMALE": "RGMCROUCHAIM",
+      "REGFEMALE": "RGFCROUCHAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_C_SHOT",
+      "BIGMALE": "BGMHANDGUN_C_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_C_SHOT",
+      "REGFEMALE": "RGFHANDGUN_C_SHOT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_RIFLE_CROUCH",
+    "label": "END (R) CROUCH",
+    "base": {
+      "REGMALE": "RGMCROUCHAIM",
+      "BIGMALE": "BGMCROUCHAIM",
+      "STOCKYMALE": "RGMCROUCHAIM",
+      "REGFEMALE": "RGFCROUCHAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_C_SHOT",
+      "BIGMALE": "BGMHANDGUN_C_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_C_SHOT",
+      "REGFEMALE": "RGFHANDGUN_C_SHOT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLBACK_HIT_STAND",
+    "label": "FALLBACK HIT STAND",
+    "base": {
+      "REGMALE": "RGMHITFALLBACK",
+      "BIGMALE": "BGMHITFALLBACK",
+      "STOCKYMALE": "RGMHITFALLBACK",
+      "REGFEMALE": "RGFHITFALLBACK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "ROLLOVER",
+    "label": "ROOLOVER",
+    "base": {
+      "REGMALE": "RGMROLLOVER",
+      "BIGMALE": "BGMROLLOVER",
+      "STOCKYMALE": "RGMROLLOVER",
+      "REGFEMALE": "RGFROLLOVER"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CLIMBUPROOF",
+    "label": "CLIMBROOF",
+    "base": {
+      "REGMALE": "RGMCLIMBROOF",
+      "BIGMALE": "BGMCLIMBROOF",
+      "STOCKYMALE": "RGMCLIMBROOF",
+      "REGFEMALE": "RGFCLIMBROOF"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF",
+    "label": "FALL",
+    "base": {
+      "REGMALE": "RGMFALL",
+      "BIGMALE": "BGMFALL",
+      "STOCKYMALE": "RGMFALL",
+      "REGFEMALE": "RGFFALL"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GETUP_FROM_ROLLOVER",
+    "label": "GETUP FROM ROLLOVER",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CLIMBDOWNROOF",
+    "label": "CLIMBDOWNROOF",
+    "base": {
+      "REGMALE": "RGMCLIMBROOF",
+      "BIGMALE": "BGMCLIMBROOF",
+      "STOCKYMALE": "RGMCLIMBROOF",
+      "REGFEMALE": "RGFCLIMBROOF"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLFORWARD_ROOF",
+    "label": "FALL FORWARD ROOF",
+    "base": {
+      "REGMALE": "RGMFALLF",
+      "BIGMALE": "BGMFALLF",
+      "STOCKYMALE": "RGMFALLF",
+      "REGFEMALE": "RGFFALLF"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GENERIC_HIT_DEATHTWITCHNB",
+    "label": "BELLY DEATHHIT NB",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "BIGMALE": "BGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND",
+      "REGFEMALE": "RGFHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GENERIC_HIT_DEATHTWITCHB",
+    "label": "BELLY DEATHHIT B",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "BIGMALE": "BGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND",
+      "REGFEMALE": "RGFHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLBACK_HIT_DEATHTWITCHNB",
+    "label": "FALLBACK DEATHHIT NB",
+    "base": {
+      "REGMALE": "RGMHITFALLBACK",
+      "BIGMALE": "BGMHITFALLBACK",
+      "STOCKYMALE": "RGMHITFALLBACK",
+      "REGFEMALE": "RGFHITFALLBACK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLBACK_HIT_DEATHTWITCHB",
+    "label": "FALLBACK DEATHHIT B",
+    "base": {
+      "REGMALE": "RGMHITFALLBACK",
+      "BIGMALE": "BGMHITFALLBACK",
+      "STOCKYMALE": "RGMHITFALLBACK",
+      "REGFEMALE": "RGFHITFALLBACK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GENERIC_HIT_DEATH",
+    "label": "BELLY HIT DEATH",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "BIGMALE": "BGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND",
+      "REGFEMALE": "RGFHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLBACK_HIT_DEATH",
+    "label": "FALLBACK HIT DEATH",
+    "base": {
+      "REGMALE": "RGMHITFALLBACK",
+      "BIGMALE": "BGMHITFALLBACK",
+      "STOCKYMALE": "RGMHITFALLBACK",
+      "REGFEMALE": "RGFHITFALLBACK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GENERIC_HIT_CROUCH",
+    "label": "GENERIC HIT CROUCH",
+    "base": {
+      "REGMALE": "RGMHITCROUCH",
+      "BIGMALE": "BGMHITCROUCH",
+      "STOCKYMALE": "RGMHITCROUCH",
+      "REGFEMALE": "RGFHITCROUCH"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "STANDING_BURST",
+    "label": "STAND BURST SHOOT",
+    "base": {
+      "REGMALE": "RGMSTANDAIM",
+      "BIGMALE": "BGMSTANDAIM2",
+      "STOCKYMALE": "RGMSTANDAIM",
+      "REGFEMALE": "RGFSTANDAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_S_SHOT",
+      "BIGMALE": "BGMHANDGUN_S_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_S_SHOT",
+      "REGFEMALE": "RGFHANDGUN_S_SHOT"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_AIM",
+      "BIGMALE": "BGMWATER_R_AIM",
+      "STOCKYMALE": "RGMWATER_R_AIM",
+      "REGFEMALE": "RGFWATER_R_AIM"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_AIM",
+      "BIGMALE": "BGMWATER_N_AIM",
+      "STOCKYMALE": "RGMWATER_N_AIM",
+      "REGFEMALE": "RGFWATER_N_AIM"
+    }
+  },
+  {
+    "id": "STANDING_BURST_HIT",
+    "label": "STAND BUTST HIT",
+    "base": {
+      "REGMALE": "RGMHITHARD",
+      "BIGMALE": "BGMHITHARD",
+      "STOCKYMALE": "RGMHITHARD",
+      "REGFEMALE": "RGFHITHARD"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLFORWARD_FROMHIT_STAND",
+    "label": "FALL FROM STAND",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "BIGMALE": "BGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND",
+      "REGFEMALE": "RGFHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLFORWARD_FROMHIT_CROUCH",
+    "label": "FALL FROM CROUCH",
+    "base": {
+      "REGMALE": "RGMHITCROUCH",
+      "BIGMALE": "BGMHITCROUCH",
+      "STOCKYMALE": "RGMHITCROUCH",
+      "REGFEMALE": "RGFHITCROUCH"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "ENDFALLFORWARD_FROMHIT_CROUCH",
+    "label": "END FALL F CROUCH",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "BIGMALE": "BGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND",
+      "REGFEMALE": "RGFHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GENERIC_HIT_PRONE",
+    "label": "GENERIC HIT PRONE",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_HIT_DEATH",
+    "label": "PRONE HIT DEATH",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_LAY_FROMHIT",
+    "label": "PRONE LAY FROM HIT",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_HIT_DEATHTWITCHNB",
+    "label": "PRONE DEATHHIT NB",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_HIT_DEATHTWITCHB",
+    "label": "PRONE DEATHHIT B",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FLYBACK_HITDEATH_STOP",
+    "label": "FLYBACK HIT DEATH STOP",
+    "base": {
+      "REGMALE": "RGMHITHARD",
+      "BIGMALE": "BGMHITHARD",
+      "STOCKYMALE": "RGMHITHARD",
+      "REGFEMALE": "RGFHITHARD"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLFORWARD_HITDEATH_STOP",
+    "label": "BELLY HIT DEATH STOP",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "BIGMALE": "BGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND",
+      "REGFEMALE": "RGFHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLBACK_HITDEATH_STOP",
+    "label": "FALLBACK HIT DEATH STOP",
+    "base": {
+      "REGMALE": "RGMHITFALLBACK",
+      "BIGMALE": "BGMHITFALLBACK",
+      "STOCKYMALE": "RGMHITFALLBACK",
+      "REGFEMALE": "RGFHITFALLBACK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_HITDEATH_STOP",
+    "label": "PRONE HIT DEATH STOP",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FLYBACKHIT_STOP",
+    "label": "FLYBACK HIT STOP",
+    "base": {
+      "REGMALE": "RGMHITHARD",
+      "BIGMALE": "BGMHITHARD",
+      "STOCKYMALE": "RGMHITHARD",
+      "REGFEMALE": "RGFHITHARD"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLBACKHIT_STOP",
+    "label": "FALLBACK HIT STOP",
+    "base": {
+      "REGMALE": "RGMHITFALLBACK",
+      "BIGMALE": "BGMHITFALLBACK",
+      "STOCKYMALE": "RGMHITFALLBACK",
+      "REGFEMALE": "RGFHITFALLBACK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_STOP",
+    "label": "FALLOFF STOP",
+    "base": {
+      "REGMALE": "RGMFALL",
+      "BIGMALE": "BGMFALL",
+      "STOCKYMALE": "RGMFALL",
+      "REGFEMALE": "RGFFALL"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_FORWARD_STOP",
+    "label": "FALLOFF FORWARD HIT STOP",
+    "base": {
+      "REGMALE": "RGMFALLF",
+      "BIGMALE": "BGMFALLF",
+      "STOCKYMALE": "RGMFALLF",
+      "REGFEMALE": "RGFFALLF"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "STAND_FALLFORWARD_STOP",
+    "label": "FALLFORWARD HIT STOP",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "BIGMALE": "BGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND",
+      "REGFEMALE": "RGFHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_LAYFROMHIT_STOP",
+    "label": "PRONE_LAYFROMHIT STOP",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "HOPFENCE",
+    "label": "HOP FENCE",
+    "base": {
+      "REGMALE": "RGMHOPFENCE",
+      "BIGMALE": "BGMHOPFENCE",
+      "STOCKYMALE": "RGMHOPFENCE",
+      "REGFEMALE": "RGFHOPFENCE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PUNCH_BREATH",
+    "label": "PUNCH BREATH",
+    "base": {
+      "REGMALE": "RGMPUNCH",
+      "BIGMALE": "BGMPUNCH",
+      "STOCKYMALE": "RGMPUNCH",
+      "REGFEMALE": "RGFPUNCH"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PUNCH",
+    "label": "PUNCH",
+    "base": {
+      "REGMALE": "RGMPUNCH",
+      "BIGMALE": "BGMPUNCH",
+      "STOCKYMALE": "RGMPUNCH",
+      "REGFEMALE": "RGFPUNCH"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "NOTHING_STAND",
+    "label": "NOTHING_STAND",
+    "base": {
+      "REGMALE": "RGMNOTHING_STD",
+      "BIGMALE": "BGMNOTHING_STD",
+      "STOCKYMALE": "RGMNOTHING_STD",
+      "REGFEMALE": "RGFNOTHING_STD"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "JFK_HITDEATH",
+    "label": "JFK HIT DEATH",
+    "base": {
+      "REGMALE": "RGMDIE_JFK",
+      "BIGMALE": "BGMDIE_JFK",
+      "STOCKYMALE": "RGMDIE_JFK",
+      "REGFEMALE": "RGFDIE_JFK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "JFK_HITDEATH_STOP",
+    "label": "JFK HIT DEATH STOP",
+    "base": {
+      "REGMALE": "RGMDIE_JFK",
+      "BIGMALE": "BGMDIE_JFK",
+      "STOCKYMALE": "RGMDIE_JFK",
+      "REGFEMALE": "RGFDIE_JFK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "JFK_HITDEATH_TWITCHB",
+    "label": "JFK DEATHHIT B",
+    "base": {
+      "REGMALE": "RGMDIE_JFK",
+      "BIGMALE": "BGMDIE_JFK",
+      "STOCKYMALE": "RGMDIE_JFK",
+      "REGFEMALE": "RGFDIE_JFK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FIRE_STAND_BURST_SPREAD",
+    "label": "STAND BURST SPREAD",
+    "base": {
+      "REGMALE": "RGMSTANDAIM",
+      "BIGMALE": "BGMSTANDAIM2",
+      "STOCKYMALE": "RGMSTANDAIM",
+      "REGFEMALE": "RGFSTANDAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_S_SHOT",
+      "BIGMALE": "BGMHANDGUN_S_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_S_SHOT",
+      "REGFEMALE": "RGFHANDGUN_S_SHOT"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_AIM",
+      "BIGMALE": "BGMWATER_R_AIM",
+      "STOCKYMALE": "RGMWATER_R_AIM",
+      "REGFEMALE": "RGFWATER_R_AIM"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_AIM",
+      "BIGMALE": "BGMWATER_N_AIM",
+      "STOCKYMALE": "RGMWATER_N_AIM",
+      "REGFEMALE": "RGFWATER_N_AIM"
+    }
+  },
+  {
+    "id": "FALLOFF_DEATH",
+    "label": "FALLOFF DEATH",
+    "base": {
+      "REGMALE": "RGMFALL",
+      "BIGMALE": "BGMFALL",
+      "STOCKYMALE": "RGMFALL",
+      "REGFEMALE": "RGFFALL"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_DEATH_STOP",
+    "label": "FALLOFF DEATH STOP",
+    "base": {
+      "REGMALE": "RGMFALL",
+      "BIGMALE": "BGMFALL",
+      "STOCKYMALE": "RGMFALL"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_TWITCHB",
+    "label": "FALLOFF TWITCH BLOOD",
+    "base": {
+      "REGMALE": "RGMFALL",
+      "BIGMALE": "BGMFALL",
+      "STOCKYMALE": "RGMFALL"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_TWITCHNB",
+    "label": "FALLOFF TWITCH NOBLOOD",
+    "base": {
+      "REGMALE": "RGMFALL",
+      "BIGMALE": "BGMFALL",
+      "STOCKYMALE": "RGMFALL"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_FORWARD_DEATH",
+    "label": "FALLOFF FORWARD DEATH",
+    "base": {
+      "REGMALE": "RGMFALLF",
+      "BIGMALE": "BGMFALLF",
+      "STOCKYMALE": "RGMFALLF",
+      "REGFEMALE": "RGMFALLF"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_FORWARD_DEATH_STOP",
+    "label": "FALLOFF FORWARD DEATH STOP",
+    "base": {
+      "REGMALE": "RGMFALLF",
+      "BIGMALE": "BGMFALLF",
+      "STOCKYMALE": "RGMFALLF",
+      "REGFEMALE": "RGMFALLF"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_FORWARD_TWITCHB",
+    "label": "FALLOFF FORWARD TWITCH BLOOD",
+    "base": {
+      "REGMALE": "RGMFALLF",
+      "BIGMALE": "BGMFALLF",
+      "STOCKYMALE": "RGMFALLF",
+      "REGFEMALE": "RGMFALLF"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALLOFF_FORWARD_TWITCHNB",
+    "label": "FALLOFF FORWARD TWITCH NOBLOOD",
+    "base": {
+      "REGMALE": "RGMFALLF",
+      "BIGMALE": "BGMFALLF",
+      "STOCKYMALE": "RGMFALLF",
+      "REGFEMALE": "RGMFALLF"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "OPEN_DOOR",
+    "label": "OPEN DOOR",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "OPEN_STRUCT",
+    "label": "OPEN STRUCT",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PICKUP_ITEM",
+    "label": "PICKUP ITEM",
+    "base": {
+      "REGMALE": "RGMPICKUP",
+      "BIGMALE": "BGMPICKUP",
+      "STOCKYMALE": "RGMPICKUP",
+      "REGFEMALE": "RGFPICKUP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DROP_ITEM",
+    "label": "DROP ITEM",
+    "base": {
+      "REGMALE": "RGMPICKUP",
+      "BIGMALE": "BGMPICKUP",
+      "STOCKYMALE": "RGMPICKUP",
+      "REGFEMALE": "RGFPICKUP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SLICE",
+    "label": "SLICE",
+    "base": {
+      "REGMALE": "RGMSLICE",
+      "BIGMALE": "BGMSLICE",
+      "STOCKYMALE": "RGMSLICE",
+      "REGFEMALE": "RGFSLICE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "STAB",
+    "label": "STAB",
+    "base": {
+      "REGMALE": "RGMSTAB",
+      "BIGMALE": "BGMSTAB",
+      "STOCKYMALE": "RGMSTAB",
+      "REGFEMALE": "RGFSTAB"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CROUCH_STAB",
+    "label": "CROUCH STAB",
+    "base": {
+      "REGMALE": "RGMCSTAB",
+      "BIGMALE": "BGMCSTAB",
+      "STOCKYMALE": "RGMCSTAB",
+      "REGFEMALE": "RGFCSTAB"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "START_AID",
+    "label": "START AID",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GIVING_AID",
+    "label": "GIVING AID",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_AID",
+    "label": "END AID",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DODGE_ONE",
+    "label": "DODGE ONE",
+    "base": {
+      "REGMALE": "RGMDODGE",
+      "BIGMALE": "BGMDODGE",
+      "STOCKYMALE": "RGMDODGE",
+      "REGFEMALE": "RGFDODGE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "READY_DUAL_STAND",
+    "label": "READY AIM (DW) STAND",
+    "base": {
+      "REGMALE": "RGMSTANDDWALAIM",
+      "BIGMALE": "BGMSTANDDWALAIM",
+      "STOCKYMALE": "RGMSTANDDWALAIM",
+      "REGFEMALE": "RGFSTANDDWALAIM"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {
+      "REGMALE": "RGMWATER_DBLSHT",
+      "BIGMALE": "BGMWATER_DBLSHT",
+      "STOCKYMALE": "RGMWATER_DBLSHT",
+      "REGFEMALE": "RGFWATER_DBLSHT"
+    }
+  },
+  {
+    "id": "AIM_DUAL_STAND",
+    "label": "AIM (DW) STAND",
+    "base": {
+      "REGMALE": "RGMSTANDDWALAIM",
+      "BIGMALE": "BGMSTANDDWALAIM",
+      "STOCKYMALE": "RGMSTANDDWALAIM",
+      "REGFEMALE": "RGFSTANDDWALAIM"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {
+      "REGMALE": "RGMWATER_DBLSHT",
+      "BIGMALE": "BGMWATER_DBLSHT",
+      "STOCKYMALE": "RGMWATER_DBLSHT",
+      "REGFEMALE": "RGFWATER_DBLSHT"
+    }
+  },
+  {
+    "id": "SHOOT_DUAL_STAND",
+    "label": "SHOOT (DW) STAND",
+    "base": {
+      "REGMALE": "RGMSTANDDWALAIM",
+      "BIGMALE": "BGMSTANDDWALAIM",
+      "STOCKYMALE": "RGMSTANDDWALAIM",
+      "REGFEMALE": "RGFSTANDDWALAIM"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {
+      "REGMALE": "RGMWATER_DBLSHT",
+      "BIGMALE": "BGMWATER_DBLSHT",
+      "STOCKYMALE": "RGMWATER_DBLSHT",
+      "REGFEMALE": "RGFWATER_DBLSHT"
+    }
+  },
+  {
+    "id": "END_DUAL_STAND",
+    "label": "END DUAL STAND",
+    "base": {
+      "REGMALE": "RGMSTANDDWALAIM",
+      "BIGMALE": "BGMSTANDDWALAIM",
+      "STOCKYMALE": "RGMSTANDDWALAIM",
+      "REGFEMALE": "RGFSTANDDWALAIM"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {
+      "REGMALE": "RGMWATER_DBLSHT",
+      "BIGMALE": "BGMWATER_DBLSHT",
+      "STOCKYMALE": "RGMWATER_DBLSHT",
+      "REGFEMALE": "RGFWATER_DBLSHT"
+    }
+  },
+  {
+    "id": "RAISE_RIFLE",
+    "label": "RAISE RIFLE",
+    "base": {
+      "REGMALE": "RGMRAISE",
+      "BIGMALE": "BGMRAISE",
+      "STOCKYMALE": "RGMRAISE",
+      "REGFEMALE": "RGFRAISE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "LOWER_RIFLE",
+    "label": "LOWER RIFLE",
+    "base": {
+      "REGMALE": "RGMRAISE",
+      "BIGMALE": "BGMRAISE",
+      "STOCKYMALE": "RGMRAISE",
+      "REGFEMALE": "RGFRAISE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BODYEXPLODING",
+    "label": "BOD BLOW",
+    "base": {
+      "REGMALE": "BODYEXPLODE",
+      "BIGMALE": "BODYEXPLODE",
+      "STOCKYMALE": "BODYEXPLODE",
+      "REGFEMALE": "BODYEXPLODE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "THROW_ITEM",
+    "label": "THROW ITEM",
+    "base": {
+      "REGMALE": "RGMTHROW",
+      "BIGMALE": "BGMTHROW",
+      "STOCKYMALE": "RGMTHROW",
+      "REGFEMALE": "RGFTHROW"
+    },
+    "item": {},
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATERTHROW",
+      "BIGMALE": "BGMWATERTHROW",
+      "STOCKYMALE": "RGMWATERTHROW",
+      "REGFEMALE": "RGFWATERTHROW"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATERTHROW",
+      "BIGMALE": "BGMWATERTHROW",
+      "STOCKYMALE": "RGMWATERTHROW",
+      "REGFEMALE": "RGFWATERTHROW"
+    }
+  },
+  {
+    "id": "LOB_ITEM",
+    "label": "LOB ITEM",
+    "base": {
+      "REGMALE": "RGMLOB",
+      "BIGMALE": "BGMLOB",
+      "STOCKYMALE": "RGMLOB",
+      "REGFEMALE": "RGFLOB"
+    },
+    "item": {},
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATERTHROW",
+      "BIGMALE": "BGMWATERTHROW",
+      "STOCKYMALE": "RGMWATERTHROW",
+      "REGFEMALE": "RGFWATERTHROW"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATERTHROW",
+      "BIGMALE": "BGMWATERTHROW",
+      "STOCKYMALE": "RGMWATERTHROW",
+      "REGFEMALE": "RGFWATERTHROW"
+    }
+  },
+  {
+    "id": "CROUCHED_BURST",
+    "label": "CROUCHED BURST SHOOT",
+    "base": {
+      "REGMALE": "RGMCROUCHAIM",
+      "BIGMALE": "BGMCROUCHAIM",
+      "STOCKYMALE": "RGMCROUCHAIM",
+      "REGFEMALE": "RGFCROUCHAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_C_SHOT",
+      "BIGMALE": "BGMHANDGUN_C_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_C_SHOT",
+      "REGFEMALE": "RGFHANDGUN_C_SHOT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_BURST",
+    "label": "PRONE BURST SHOOT",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGBUY_FLEX",
+    "label": "BIG GUY FLEX",
+    "base": {
+      "BIGMALE": "BGMFLEX"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGBUY_STRECH",
+    "label": "BIG GUY STRECH",
+    "base": {
+      "BIGMALE": "BGMSTRECH"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGBUY_SHOEDUST",
+    "label": "BIG GUY SHOE DUST",
+    "base": {
+      "BIGMALE": "BGMSHOEDUST"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGBUY_HEADTURN",
+    "label": "BIG GUY HEAD TURN",
+    "base": {
+      "BIGMALE": "BGMHEADTURN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GIVE_ITEM",
+    "label": "GIVE ITEM",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CLIMB_CLIFF",
+    "label": "CLIMB MOUNTAIN",
+    "base": {
+      "REGMALE": "RGMMCLIMB"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "WATER_HIT",
+    "label": "WATER HIT",
+    "base": {
+      "REGMALE": "RGMWATER_DIE",
+      "BIGMALE": "BGMWATER_DIE",
+      "STOCKYMALE": "RGMWATER_DIE",
+      "REGFEMALE": "RGFWATER_DIE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "WATER_DIE",
+    "label": "WATER DIE",
+    "base": {
+      "REGMALE": "RGMWATER_DIE",
+      "BIGMALE": "BGMWATER_DIE",
+      "STOCKYMALE": "RGMWATER_DIE",
+      "REGFEMALE": "RGFWATER_DIE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "WATER_DIE_STOP",
+    "label": "WATER DIE STOP",
+    "base": {
+      "REGMALE": "RGMWATER_DIE",
+      "BIGMALE": "BGMWATER_DIE",
+      "STOCKYMALE": "RGMWATER_DIE",
+      "REGFEMALE": "RGFWATER_DIE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "HELIDROP",
+    "label": "HELIDROP",
+    "base": {
+      "REGMALE": "RGMHELIDROP",
+      "BIGMALE": "BGMHELIDROP",
+      "STOCKYMALE": "RGMHELIDROP",
+      "REGFEMALE": "RGFHELIDROP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FEM_CLEAN",
+    "label": "FEM CLEAN",
+    "base": {
+      "REGFEMALE": "RGFCLEAN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FEM_KICKSN",
+    "label": "FEM KICKSN",
+    "base": {
+      "REGFEMALE": "RGFKICKSN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FEM_LOOK",
+    "label": "FEM LOOK",
+    "base": {
+      "REGMALE": "RGM_LOOK",
+      "STOCKYMALE": "RGM_LOOK",
+      "REGFEMALE": "RGFALOOK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FEM_WIPE",
+    "label": "FEM WIPE",
+    "base": {
+      "REGFEMALE": "RGFWIPE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "REG_SQUISH",
+    "label": "REG SQUISH",
+    "base": {
+      "REGMALE": "RGM_SQUISH",
+      "STOCKYMALE": "RGM_SQUISH"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "REG_PULL",
+    "label": "REG PULL",
+    "base": {
+      "REGMALE": "RGM_PULL",
+      "STOCKYMALE": "RGM_PULL"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "REG_SPIT",
+    "label": "REG SPIT",
+    "base": {
+      "REGMALE": "RGM_SPIT",
+      "STOCKYMALE": "RGM_SPIT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "NINJA_GOTOBREATH",
+    "label": "NINJA GOTO BREATH",
+    "base": {
+      "REGMALE": "RGMLOWKICK",
+      "STOCKYMALE": "RGMLOWKICK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "NINJA_BREATH",
+    "label": "NINJA BREATH",
+    "base": {
+      "REGMALE": "RGMLOWKICK",
+      "STOCKYMALE": "RGMLOWKICK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "NINJA_LOWKICK",
+    "label": "NINJA LOWKICK",
+    "base": {
+      "REGMALE": "RGMLOWKICK",
+      "STOCKYMALE": "RGMLOWKICK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "NINJA_PUNCH",
+    "label": "NINJA PUNCH",
+    "base": {
+      "REGMALE": "RGMNPUNCH",
+      "STOCKYMALE": "RGMNPUNCH"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "NINJA_SPINKICK",
+    "label": "NINJA SPIN KICK",
+    "base": {
+      "REGMALE": "RGMSPINKICK",
+      "STOCKYMALE": "RGMSPINKICK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_OPEN_DOOR",
+    "label": "END OPEN DOOR",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_OPEN_LOCKED_DOOR",
+    "label": "END OPEN LOCKED DOOR",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "KICK_DOOR",
+    "label": "KICK DOOR",
+    "base": {
+      "REGMALE": "RGMKICKDOOR",
+      "BIGMALE": "BGMKICKDOOR",
+      "STOCKYMALE": "RGMKICKDOOR",
+      "REGFEMALE": "RGFKICKDOOR"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CLOSE_DOOR",
+    "label": "CLOSE DOOR",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "RIFLE_STAND_HIT",
+    "label": "HIT STAND RIFLE",
+    "base": {
+      "REGMALE": "RGMRHIT",
+      "BIGMALE": "BGMRHIT",
+      "STOCKYMALE": "RGMRHIT",
+      "REGFEMALE": "RGFRHIT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DEEP_WATER_TRED",
+    "label": "DEEP WATER TREAD",
+    "base": {
+      "REGMALE": "RGMDEEPWATER_TRED",
+      "BIGMALE": "BGMDEEPWATER_TRED",
+      "STOCKYMALE": "RGMDEEPWATER_TRED",
+      "REGFEMALE": "RGFDEEPWATER_TRED"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DEEP_WATER_SWIM",
+    "label": "DEEP WATER SWIM",
+    "base": {
+      "REGMALE": "RGMDEEPWATER_SWIM",
+      "BIGMALE": "BGMDEEPWATER_SWIM",
+      "STOCKYMALE": "RGMDEEPWATER_SWIM",
+      "REGFEMALE": "RGFDEEPWATER_SWIM"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DEEP_WATER_HIT",
+    "label": "DEEP WATER HIT",
+    "base": {
+      "REGMALE": "RGMDEEPWATER_DIE",
+      "BIGMALE": "BGMDEEPWATER_DIE",
+      "STOCKYMALE": "RGMDEEPWATER_DIE",
+      "REGFEMALE": "RGFDEEPWATER_DIE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DEEP_WATER_DIE",
+    "label": "DEEP WATER DIE",
+    "base": {
+      "REGMALE": "RGMDEEPWATER_DIE",
+      "BIGMALE": "BGMDEEPWATER_DIE",
+      "STOCKYMALE": "RGMDEEPWATER_DIE",
+      "REGFEMALE": "RGFDEEPWATER_DIE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DEEP_WATER_DIE_STOPPING",
+    "label": "DEEP WATER DIE STOPPING",
+    "base": {
+      "REGMALE": "RGMWATER_DIE",
+      "BIGMALE": "BGMWATER_DIE",
+      "STOCKYMALE": "RGMWATER_DIE",
+      "REGFEMALE": "RGFWATER_DIE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DEEP_WATER_DIE_STOP",
+    "label": "DEEP WATER DIE STOP",
+    "base": {
+      "REGMALE": "RGMWATER_DIE",
+      "BIGMALE": "BGMWATER_DIE",
+      "STOCKYMALE": "RGMWATER_DIE",
+      "REGFEMALE": "RGFWATER_DIE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "LOW_TO_DEEP_WATER",
+    "label": "LOW TO DEEP WATER",
+    "base": {
+      "REGMALE": "RGMWATER_TRANS",
+      "BIGMALE": "BGMWATER_TRANS",
+      "STOCKYMALE": "RGMWATER_TRANS",
+      "REGFEMALE": "RGFWATER_TRANS"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DEEP_TO_LOW_WATER",
+    "label": "DEEP TO LOW WATER",
+    "base": {
+      "REGMALE": "RGMWATER_TRANS",
+      "BIGMALE": "BGMWATER_TRANS",
+      "STOCKYMALE": "RGMWATER_TRANS",
+      "REGFEMALE": "RGFWATER_TRANS"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GOTO_SLEEP",
+    "label": "GOTO SLEEP",
+    "base": {
+      "REGMALE": "RGMSLEEP",
+      "BIGMALE": "BGMSLEEP",
+      "STOCKYMALE": "RGMSLEEP",
+      "REGFEMALE": "RGFSLEEP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SLEEPING",
+    "label": "SLEEPING",
+    "base": {
+      "REGMALE": "RGMSLEEP",
+      "BIGMALE": "BGMSLEEP",
+      "STOCKYMALE": "RGMSLEEP",
+      "REGFEMALE": "RGFSLEEP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "WKAEUP_FROM_SLEEP",
+    "label": "WAKEUP",
+    "base": {
+      "REGMALE": "RGMSLEEP",
+      "BIGMALE": "BGMSLEEP",
+      "STOCKYMALE": "RGMSLEEP",
+      "REGFEMALE": "RGFSLEEP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FIRE_LOW_STAND",
+    "label": "SHOOT (R) STAND LOW",
+    "base": {
+      "REGMALE": "RGMSHOOT_LOW",
+      "BIGMALE": "BGMSHOOT_LOW",
+      "STOCKYMALE": "RGMSHOOT_LOW",
+      "REGFEMALE": "RGFSHOOT_LOW"
+    },
+    "item": {
+      "REGMALE": "RGMPISTOLSHOOTLOW",
+      "BIGMALE": "BGMPISTOLSHOOTLOW",
+      "STOCKYMALE": "RGMPISTOLSHOOTLOW",
+      "REGFEMALE": "RGFPISTOLSHOOTLOW"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FIRE_BURST_LOW_STAND",
+    "label": "BURST SHOOT (R) STAND LOW",
+    "base": {
+      "REGMALE": "RGMSHOOT_LOW",
+      "BIGMALE": "BGMSHOOT_LOW",
+      "STOCKYMALE": "RGMSHOOT_LOW",
+      "REGFEMALE": "RGFSHOOT_LOW"
+    },
+    "item": {
+      "REGMALE": "RGMPISTOLSHOOTLOW",
+      "BIGMALE": "BGMPISTOLSHOOTLOW",
+      "STOCKYMALE": "RGMPISTOLSHOOTLOW",
+      "REGFEMALE": "RGFPISTOLSHOOTLOW"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "STANDING_SHOOT_UNJAM",
+    "label": "UNJAM STANDING",
+    "base": {
+      "REGMALE": "RGMSTANDAIM",
+      "BIGMALE": "BGMSTANDAIM",
+      "STOCKYMALE": "RGMSTANDAIM",
+      "REGFEMALE": "RGFSTANDAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_S_SHOT",
+      "BIGMALE": "BGMHANDGUN_S_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_S_SHOT",
+      "REGFEMALE": "RGFHANDGUN_S_SHOT"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGMWATER_R_AIM",
+      "BIGMALE": "BGMWATER_R_AIM",
+      "STOCKYMALE": "RGMWATER_R_AIM",
+      "REGFEMALE": "RGFWATER_R_AIM"
+    },
+    "waterOther": {
+      "REGMALE": "RGMWATER_N_AIM",
+      "BIGMALE": "BGMWATER_N_AIM",
+      "STOCKYMALE": "RGMWATER_N_AIM",
+      "REGFEMALE": "RGFWATER_N_AIM"
+    }
+  },
+  {
+    "id": "CROUCH_SHOOT_UNJAM",
+    "label": "UNJAM CROUCH",
+    "base": {
+      "REGMALE": "RGMCROUCHAIM",
+      "BIGMALE": "BGMCROUCHAIM",
+      "STOCKYMALE": "RGMCROUCHAIM",
+      "REGFEMALE": "RGFCROUCHAIM"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_C_SHOT",
+      "BIGMALE": "BGMHANDGUN_C_SHOT",
+      "STOCKYMALE": "RGMHANDGUN_C_SHOT",
+      "REGFEMALE": "RGFHANDGUN_C_SHOT"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_SHOOT_UNJAM",
+    "label": "UNJAM PRONE",
+    "base": {
+      "REGMALE": "RGMPRONE",
+      "BIGMALE": "BGMPRONE",
+      "STOCKYMALE": "RGMPRONE",
+      "REGFEMALE": "RGFPRONE"
+    },
+    "item": {
+      "REGMALE": "RGMHANDGUN_PRONE",
+      "BIGMALE": "BGMHANDGUN_PRONE",
+      "STOCKYMALE": "RGMHANDGUN_PRONE",
+      "REGFEMALE": "RGFHANDGUN_PRONE"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "STANDING_SHOOT_DWEL_UNJAM",
+    "label": "UNJAM STAND DWEL",
+    "base": {
+      "REGMALE": "RGMSTANDDWALAIM",
+      "BIGMALE": "BGMSTANDDWALAIM",
+      "STOCKYMALE": "RGMSTANDDWALAIM",
+      "REGFEMALE": "RGFSTANDDWALAIM"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "STANDING_SHOOT_LOW_UNJAM",
+    "label": "UNJAM STAND LOW",
+    "base": {
+      "REGMALE": "RGMSHOOT_LOW",
+      "BIGMALE": "BGMSHOOT_LOW",
+      "STOCKYMALE": "RGMSHOOT_LOW",
+      "REGFEMALE": "RGFSHOOT_LOW"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "READY_DUAL_CROUCH",
+    "label": "READY AIM (DW) CROUCH",
+    "base": {
+      "REGMALE": "RGMCDBLSHOT",
+      "BIGMALE": "BGMCDBLSHOT",
+      "STOCKYMALE": "RGMCDBLSHOT",
+      "REGFEMALE": "RGFCDBLSHOT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "AIM_DUAL_CROUCH",
+    "label": "AIM (DW) CROUCH",
+    "base": {
+      "REGMALE": "RGMCDBLSHOT",
+      "BIGMALE": "BGMCDBLSHOT",
+      "STOCKYMALE": "RGMCDBLSHOT",
+      "REGFEMALE": "RGFCDBLSHOT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SHOOT_DUAL_CROUCH",
+    "label": "SHOOT (DW) CROUCH",
+    "base": {
+      "REGMALE": "RGMCDBLSHOT",
+      "BIGMALE": "BGMCDBLSHOT",
+      "STOCKYMALE": "RGMCDBLSHOT",
+      "REGFEMALE": "RGFCDBLSHOT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_DUAL_CROUCH",
+    "label": "END DUAL CROUCH",
+    "base": {
+      "REGMALE": "RGMCDBLSHOT",
+      "BIGMALE": "BGMCDBLSHOT",
+      "STOCKYMALE": "RGMCDBLSHOT",
+      "REGFEMALE": "RGFCDBLSHOT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CROUCH_SHOOT_DWEL_UNJAM",
+    "label": "UNJAM CROUCH DWEL",
+    "base": {
+      "REGMALE": "RGMCDBLSHOT",
+      "BIGMALE": "BGMCDBLSHOT",
+      "STOCKYMALE": "RGMCDBLSHOT",
+      "REGFEMALE": "RGFCDBLSHOT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "ADJACENT_GET_ITEM",
+    "label": "GET ADJACENT ITEM",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CUTTING_FENCE",
+    "label": "CUTTING FENCE",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CRIPPLE_KICKOUT",
+    "label": "CRIPPLE KICK",
+    "base": {
+      "REGMALE": "CRIPCIVKICK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FROM_INJURED_TRANSITION",
+    "label": "INJURED TRANSITION",
+    "base": {
+      "REGMALE": "RGMHURTTRANS",
+      "BIGMALE": "BGMHURTTRANS",
+      "STOCKYMALE": "RGMHURTTRANS",
+      "REGFEMALE": "RGFHURTTRANS"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "THROW_KNIFE",
+    "label": "THROW KNIFE",
+    "base": {
+      "REGMALE": "RGMTHROWKNIFE",
+      "BIGMALE": "BGMTHROWKNIFE",
+      "STOCKYMALE": "RGMTHROWKNIFE",
+      "REGFEMALE": "RGFTHROWKNIFE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "KNIFE_BREATH",
+    "label": "KNIFE BREATH",
+    "base": {
+      "REGMALE": "RGMBREATHKNIFE",
+      "BIGMALE": "BGMBREATHKNIFE",
+      "STOCKYMALE": "RGMBREATHKNIFE",
+      "REGFEMALE": "RGFBREATHKNIFE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "KNIFE_GOTOBREATH",
+    "label": "KNIFE GOTO BREATH",
+    "base": {
+      "REGMALE": "RGMBREATHKNIFE",
+      "BIGMALE": "BGMBREATHKNIFE",
+      "STOCKYMALE": "RGMBREATHKNIFE",
+      "REGFEMALE": "RGFBREATHKNIFE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "KNIFE_ENDBREATH",
+    "label": "KNIFE END BREATH",
+    "base": {
+      "REGMALE": "RGMBREATHKNIFE",
+      "BIGMALE": "BGMBREATHKNIFE",
+      "STOCKYMALE": "RGMBREATHKNIFE",
+      "REGFEMALE": "RGFBREATHKNIFE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CATCH_STANDING",
+    "label": "Catch Standing",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CATCH_CROUCHED",
+    "label": "Catch Crouched",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PLANT_BOMB",
+    "label": "PLANT BOMB",
+    "base": {
+      "REGMALE": "RGMPICKUP",
+      "BIGMALE": "BGMPICKUP",
+      "STOCKYMALE": "RGMPICKUP",
+      "REGFEMALE": "RGFPICKUP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "USE_REMOTE",
+    "label": "Use Remote",
+    "base": {
+      "REGMALE": "RGMUSEREMOTE",
+      "BIGMALE": "BGMUSEREMOTE",
+      "STOCKYMALE": "RGMUSEREMOTE",
+      "REGFEMALE": "RGFUSEREMOTE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "START_COWER",
+    "label": "START Cower",
+    "base": {
+      "REGMALE": "RGMCOWER",
+      "BIGMALE": "BGMCOWER",
+      "STOCKYMALE": "RGMCOWER",
+      "REGFEMALE": "RGFCOWER"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "COWERING",
+    "label": "Cowering",
+    "base": {
+      "REGMALE": "RGMCOWER",
+      "BIGMALE": "BGMCOWER",
+      "STOCKYMALE": "RGMCOWER",
+      "REGFEMALE": "RGFCOWER"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_COWER",
+    "label": "End Cower",
+    "base": {
+      "REGMALE": "RGMCOWER",
+      "BIGMALE": "BGMCOWER",
+      "STOCKYMALE": "RGMCOWER",
+      "REGFEMALE": "RGFCOWER"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "STEAL_ITEM",
+    "label": "STEAL ITEM",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SHOOT_ROCKET",
+    "label": "LAUNCH ROCKET",
+    "base": {
+      "REGMALE": "RGMROCKET",
+      "BIGMALE": "BGMROCKET",
+      "STOCKYMALE": "RGMROCKET",
+      "REGFEMALE": "RGFROCKET"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SHOOT_MORTAR",
+    "label": "SHOOT MORTAR",
+    "base": {
+      "REGMALE": "RGMMORTAR",
+      "BIGMALE": "BGMMORTAR",
+      "STOCKYMALE": "RGMMORTAR",
+      "REGFEMALE": "RGFMORTAR"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SIDE_STEP",
+    "label": "SIDE STEPPING",
+    "base": {
+      "REGMALE": "RGMSIDESTEP",
+      "BIGMALE": "BGMSIDESTEP",
+      "STOCKYMALE": "RGMSIDESTEP",
+      "REGFEMALE": "RGFSIDESTEP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "WALK_BACKWARDS",
+    "label": "WALK BACKWARDS",
+    "base": {
+      "REGMALE": "RGMBASICWALKING",
+      "BIGMALE": "BGMWALKING",
+      "STOCKYMALE": "RGMBASICWALKING",
+      "REGFEMALE": "RGFWALKING"
+    },
+    "item": {
+      "REGMALE": "RGMNOTHING_WALK",
+      "BIGMALE": "BGMNOTHING_WALK",
+      "STOCKYMALE": "RGMNOTHING_WALK",
+      "REGFEMALE": "RGFNOTHING_WALK"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BEGIN_OPENSTRUCT",
+    "label": "BEGIN OPEN STRUCT",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_OPENSTRUCT",
+    "label": "END OPEN STRUCT",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_OPENSTRUCT_LOCKED",
+    "label": "END OPEN LOCKED STRUCT",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PUNCH_LOW",
+    "label": "LOW PUNCH",
+    "base": {
+      "REGMALE": "RGMPUNCHLOW",
+      "BIGMALE": "BGMPUNCHLOW",
+      "STOCKYMALE": "RGMPUNCHLOW",
+      "REGFEMALE": "RGFPUNCHLOW"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PISTOL_SHOOT_LOW",
+    "label": "SHOOT (P) STAND LOW",
+    "base": {
+      "REGMALE": "RGMPISTOLSHOOTLOW",
+      "BIGMALE": "BGMPISTOLSHOOTLOW",
+      "STOCKYMALE": "RGMPISTOLSHOOTLOW",
+      "REGFEMALE": "RGFPISTOLSHOOTLOW"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DECAPITATE",
+    "label": "DECAPITATE",
+    "base": {
+      "REGMALE": "RGMCSTAB",
+      "BIGMALE": "BGMCSTAB",
+      "STOCKYMALE": "RGMCSTAB",
+      "REGFEMALE": "RGFCSTAB"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGMERC_IDLE_NECK",
+    "label": "BIGMERC S NECK",
+    "base": {
+      "BIGMALE": "BGMIDLENECK"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGMERC_CROUCH_TRANS_INTO",
+    "label": "BIGMERC CROUCH TRANS INTO",
+    "base": {
+      "BIGMALE": "BGMCROUCHTRANS"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGMERC_CROUCH_TRANS_OUTOF",
+    "label": "BIGMERC CROUCH TRANS OUTOF",
+    "base": {
+      "BIGMALE": "BGMCROUCHTRANS"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GOTO_PATIENT",
+    "label": "GOTO PATIENT",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BEING_PATIENT",
+    "label": "BEING PATIENT",
+    "base": {
+      "REGMALE": "RGMHITPRONE",
+      "BIGMALE": "BGMHITPRONE",
+      "STOCKYMALE": "RGMHITPRONE",
+      "REGFEMALE": "RGFHITPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GOTO_DOCTOR",
+    "label": "GOTO DOCTOR",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BEING_DOCTOR",
+    "label": "BEING DOCTOR",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_DOCTOR",
+    "label": "END DOCTOR",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GOTO_REPAIRMAN",
+    "label": "GOTO REPAIRMAN",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BEING_REPAIRMAN",
+    "label": "BEING REPAIRMAN",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_REPAIRMAN",
+    "label": "END REPAIRMAN",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FALL_INTO_PIT",
+    "label": "FALL INTO PIT",
+    "base": {
+      "REGMALE": "RGMFALL",
+      "BIGMALE": "BGMFALL",
+      "STOCKYMALE": "RGMFALL",
+      "REGFEMALE": "RGFFALL"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "RELOAD_ROBOT",
+    "label": "RELOAD ROBOT",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_CATCH",
+    "label": "Catch Standing",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_CROUCH_CATCH",
+    "label": "Catch Crouched",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "AI_RADIO",
+    "label": "RADIO",
+    "base": {
+      "REGMALE": "RGMRADIO",
+      "BIGMALE": "BGMRADIO",
+      "STOCKYMALE": "RGMRADIO",
+      "REGFEMALE": "RGFRADIO"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "AI_CR_RADIO",
+    "label": "CROUCH RADIO",
+    "base": {
+      "REGMALE": "RGMCRRADIO",
+      "BIGMALE": "BGMCRRADIO",
+      "STOCKYMALE": "RGMCRRADIO",
+      "REGFEMALE": "RGFCRRADIO"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "QUEEN_SLAP",
+    "label": "QUEEN SLAP",
+    "base": {
+      "REGFEMALE": "RGFSLAP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SLAP_HIT",
+    "label": "SLAP HIT",
+    "base": {
+      "REGMALE": "RGMHITSTAND",
+      "STOCKYMALE": "RGMHITSTAND"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "TAKE_BLOOD_FROM_CORPSE",
+    "label": "GET BLOOD",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "QUEEN_FRUSTRATED_SLAP",
+    "label": "QUEEN FRUSTRATED SLAP",
+    "base": {
+      "REGFEMALE": "RGFSLAP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CHARIOTS_OF_FIRE",
+    "label": "FIRE FIRE",
+    "base": {
+      "REGMALE": "RGMBURN",
+      "BIGMALE": "RGMBURN",
+      "STOCKYMALE": "RGMBURN",
+      "REGFEMALE": "RGMBURN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "AI_PULL_SWITCH",
+    "label": "AI TRIGGER",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "MERC_HURT_IDLE_ANIM",
+    "label": "MERC INJURED IDLE ANIM",
+    "base": {
+      "REGMALE": "RGMHURTSTANDINGR",
+      "BIGMALE": "BGMHURTSTANDINGR",
+      "STOCKYMALE": "RGMHURTSTANDINGR",
+      "REGFEMALE": "RGFHURTSTANDINGR"
+    },
+    "item": {
+      "REGMALE": "RGMHURTSTANDINGN",
+      "BIGMALE": "BGMHURTSTANDINGN",
+      "STOCKYMALE": "RGMHURTSTANDINGN",
+      "REGFEMALE": "RGFHURTSTANDINGN"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_HURT_WALKING",
+    "label": "END INJURED WALK",
+    "base": {
+      "REGMALE": "RGMHURTSTANDINGR",
+      "BIGMALE": "BGMHURTSTANDINGR",
+      "STOCKYMALE": "RGMHURTSTANDINGR",
+      "REGFEMALE": "RGFHURTSTANDINGR"
+    },
+    "item": {
+      "REGMALE": "RGMHURTSTANDINGN",
+      "BIGMALE": "BGMHURTSTANDINGN",
+      "STOCKYMALE": "RGMHURTSTANDINGN",
+      "REGFEMALE": "RGFHURTSTANDINGN"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PASS_OBJECT",
+    "label": "PASS OBJECT",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DROP_ADJACENT_OBJECT",
+    "label": "ADJACENT DROP OBJECT",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "READY_DUAL_PRONE",
+    "label": "READY AIM (DW) PRONE",
+    "base": {
+      "REGMALE": "RGMDWPRONE",
+      "BIGMALE": "BGMDWPRONE",
+      "STOCKYMALE": "RGMDWPRONE",
+      "REGFEMALE": "RGFDWPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "AIM_DUAL_PRONE",
+    "label": "AIM (DW) PRONE",
+    "base": {
+      "REGMALE": "RGMDWPRONE",
+      "BIGMALE": "BGMDWPRONE",
+      "STOCKYMALE": "RGMDWPRONE",
+      "REGFEMALE": "RGFDWPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SHOOT_DUAL_PRONE",
+    "label": "SHOOT (DW) PRONE",
+    "base": {
+      "REGMALE": "RGMDWPRONE",
+      "BIGMALE": "BGMDWPRONE",
+      "STOCKYMALE": "RGMDWPRONE",
+      "REGFEMALE": "RGFDWPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_DUAL_PRONE",
+    "label": "END DUAL PRONE",
+    "base": {
+      "REGMALE": "RGMDWPRONE",
+      "BIGMALE": "BGMDWPRONE",
+      "STOCKYMALE": "RGMDWPRONE",
+      "REGFEMALE": "RGFDWPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PRONE_SHOOT_DWEL_UNJAM",
+    "label": "UNJAM PRONE DWEL",
+    "base": {
+      "REGMALE": "RGMDWPRONE",
+      "BIGMALE": "BGMDWPRONE",
+      "STOCKYMALE": "RGMDWPRONE",
+      "REGFEMALE": "RGFDWPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "PICK_LOCK",
+    "label": "PICK LOCK",
+    "base": {
+      "REGMALE": "RGMOPEN",
+      "BIGMALE": "BGMOPEN",
+      "STOCKYMALE": "RGMOPEN",
+      "REGFEMALE": "RGFOPEN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "OPEN_DOOR_CROUCHED",
+    "label": "OPEN DOOR CROUCHED",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BEGIN_OPENSTRUCT_CROUCHED",
+    "label": "BEGIN OPEN STRUCT CROUCHED",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CLOSE_DOOR_CROUCHED",
+    "label": "CLOSE DOOR CROUCHED",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "OPEN_STRUCT_CROUCHED",
+    "label": "OPEN STRUCT CROUCHED",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_OPEN_DOOR_CROUCHED",
+    "label": "END OPEN DOOR CROUCHED",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_OPENSTRUCT_CROUCHED",
+    "label": "END OPENSTRUCT CROUCHED",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_OPEN_LOCKED_DOOR_CROUCHED",
+    "label": "END OPNE LOCKED DOOR CR",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_OPENSTRUCT_LOCKED_CROUCHED",
+    "label": "END OPEN STRUCT LOCKED CR",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "DRUNK_IDLE",
+    "label": "DRUNK IDLE",
+    "base": {
+      "REGMALE": "RGMDRUNK",
+      "BIGMALE": "BGMDRUNK",
+      "STOCKYMALE": "RGMDRUNK",
+      "REGFEMALE": "RGFDRUNK"
+    },
+    "item": {
+      "REGMALE": "RGMPISTOLDRUNK",
+      "BIGMALE": "BGMPISTOLDRUNK",
+      "STOCKYMALE": "RGMPISTOLDRUNK",
+      "REGFEMALE": "RGMPISTOLDRUNK"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CROWBAR_ATTACK",
+    "label": "CROWBAR",
+    "base": {
+      "REGMALE": "RGMCROWBAR",
+      "BIGMALE": "BGMCROWBAR",
+      "STOCKYMALE": "RGMCROWBAR",
+      "REGFEMALE": "RGFCROWBAR"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "ATTACH_CAN_TO_STRING",
+    "label": "Attach String",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SWAT_BACKWARDS",
+    "label": "SWAT BACKWARDS",
+    "base": {
+      "REGMALE": "RGMSNEAKING",
+      "BIGMALE": "BGMSNEAKING",
+      "STOCKYMALE": "RGMSNEAKING",
+      "REGFEMALE": "RGFSNEAKING"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "JUMP_OVER_BLOCKING_PERSON",
+    "label": "JUMP OVER",
+    "base": {
+      "REGMALE": "RGMJUMPOVER",
+      "BIGMALE": "BGMJUMPOVER",
+      "STOCKYMALE": "RGMJUMPOVER",
+      "REGFEMALE": "RGFJUMPOVER"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "REFUEL_VEHICLE",
+    "label": "REFUEL VEHICLE",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "LOCKPICK_CROUCHED",
+    "label": "CROUCH PICK LOCK",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "THROW_ITEM_CROUCHED",
+    "label": "THROW ITEM CROUCHED",
+    "base": {
+      "REGMALE": "RGMCRTHROW",
+      "BIGMALE": "BGMCRTHROW",
+      "STOCKYMALE": "RGMCRTHROW",
+      "REGFEMALE": "RGFCRTHROW"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGGUY_STONE",
+    "label": "BIG GUY STONE",
+    "base": {
+      "BIGMALE": "BGMWITHSTONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SHOOT_ROCKET_CROUCHED",
+    "label": "SHOOT ROCKET CROUCHED",
+    "base": {
+      "REGMALE": "RGMCRROCKET",
+      "BIGMALE": "BGMCRROCKET",
+      "STOCKYMALE": "RGMCRROCKET",
+      "REGFEMALE": "RGFCRROCKET"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SWATTING_WK",
+    "label": "SWAT with knife",
+    "base": {
+      "REGMALE": "RGMSWKNIFE",
+      "BIGMALE": "BGMSWKNIFE",
+      "STOCKYMALE": "RGMSWKNIFE",
+      "REGFEMALE": "RGFSWKNIFE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SWAT_BACKWARDS_WK",
+    "label": "SWAT BACKWARDS with knife",
+    "base": {
+      "REGMALE": "RGMSWKNIFE",
+      "BIGMALE": "BGMSWKNIFE",
+      "STOCKYMALE": "RGMSWKNIFE",
+      "REGFEMALE": "RGFSWKNIFE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SWAT_BACKWARDS_NOTHING",
+    "label": "SWAT BACKWARDS with nothing",
+    "base": {
+      "REGMALE": "RGMNOTHING_SWAT",
+      "BIGMALE": "BGMNOTHING_SWAT",
+      "STOCKYMALE": "RGMNOTHING_SWAT",
+      "REGFEMALE": "RGFNOTHING_SWAT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "THROW_GRENADE_STANCE",
+    "label": "THROW GRENADE",
+    "base": {
+      "REGMALE": "RGMSTHRG",
+      "BIGMALE": "BGMSTHRG",
+      "STOCKYMALE": "RGMSTHRG",
+      "REGFEMALE": "RGFSTHRG"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "LOB_GRENADE_STANCE",
+    "label": "LOB GRENADE",
+    "base": {
+      "REGMALE": "RGMSLOBG",
+      "BIGMALE": "BGMSLOBG",
+      "STOCKYMALE": "RGMSLOBG",
+      "REGFEMALE": "RGFSLOBG"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "ROLL_PRONE_R",
+    "label": "ROLL PRONE LEFT",
+    "base": {
+      "REGMALE": "RGMROLL_PR",
+      "BIGMALE": "BGMROLL_PR",
+      "STOCKYMALE": "RGMROLL_PR",
+      "REGFEMALE": "RGFROLL_PR"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "ROLL_PRONE_L",
+    "label": "ROLL PRONE RIGHT",
+    "base": {
+      "REGMALE": "RGMROLL_PR",
+      "BIGMALE": "BGMROLL_PR",
+      "STOCKYMALE": "RGMROLL_PR",
+      "REGFEMALE": "RGFROLL_PR"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "JUMPUPWALL",
+    "label": "JUMPUPWALL",
+    "base": {
+      "REGMALE": "RGMWALLJUMP",
+      "BIGMALE": "BGMWALLJUMP",
+      "STOCKYMALE": "RGMWALLJUMP",
+      "REGFEMALE": "RGFWALLJUMP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "JUMPDOWNWALL",
+    "label": "JUMPDOWNWALL",
+    "base": {
+      "REGMALE": "RGMWALLJUMP",
+      "BIGMALE": "BGMWALLJUMP",
+      "STOCKYMALE": "RGMWALLJUMP",
+      "REGFEMALE": "RGFWALLJUMP"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "JUMPWINDOWS",
+    "label": "JUMP WINDOWS",
+    "base": {
+      "REGMALE": "RGMJUMPWINDOWS",
+      "BIGMALE": "BGMJUMPWINDOWS",
+      "STOCKYMALE": "RGMJUMPWINDOWS",
+      "REGFEMALE": "RGFJUMPWINDOWS"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "THROW_KNIFE_SP_BM",
+    "label": "THROW KNIFE 2",
+    "base": {
+      "BIGMALE": "BGMTHROWKNIFE2"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SIDE_STEP_WEAPON_RDY",
+    "label": "SIDE STEPPING WITH RIFLE RDY",
+    "base": {
+      "REGMALE": "RGMSIDESTEP_R_RDY",
+      "BIGMALE": "BGMSIDESTEP_R_RDY",
+      "STOCKYMALE": "RGMSIDESTEP_R_RDY",
+      "REGFEMALE": "RGFSIDESTEP_R_RDY"
+    },
+    "item": {
+      "REGMALE": "RGMSIDESTEP_P_RDY",
+      "BIGMALE": "BGMSIDESTEP_P_RDY",
+      "STOCKYMALE": "RGMSIDESTEP_P_RDY",
+      "REGFEMALE": "RGFSIDESTEP_P_RDY"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SIDE_STEP_DUAL_RDY",
+    "label": "SIDE STEPPING WITH DUAL RDY",
+    "base": {
+      "REGMALE": "RGMSIDESTEP_D_RDY",
+      "BIGMALE": "BGMSIDESTEP_D_RDY",
+      "STOCKYMALE": "RGMSIDESTEP_D_RDY",
+      "REGFEMALE": "RGFSIDESTEP_D_RDY"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SIDE_STEP_CROUCH_RIFLE",
+    "label": "SIDE_STEP_CROUCH_RIFLE_RDY",
+    "base": {
+      "REGMALE": "RGMSIDESTEP_CROUCH_R_RDY",
+      "BIGMALE": "BGMSIDESTEP_CROUCH_R_RDY",
+      "STOCKYMALE": "RGMSIDESTEP_CROUCH_R_RDY",
+      "REGFEMALE": "RGFSIDESTEP_CROUCH_R_RDY"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SIDE_STEP_CROUCH_PISTOL",
+    "label": "SIDE_STEP_CROUCH_PISTOL_RDY",
+    "base": {
+      "REGMALE": "RGMSIDESTEP_CROUCH_P_RDY",
+      "BIGMALE": "BGMSIDESTEP_CROUCH_P_RDY",
+      "STOCKYMALE": "RGMSIDESTEP_CROUCH_P_RDY",
+      "REGFEMALE": "RGFSIDESTEP_CROUCH_P_RDY"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SIDE_STEP_CROUCH_DUAL",
+    "label": "SIDE_STEP_CROUCH_DUAL_RDY",
+    "base": {
+      "REGMALE": "RGMSIDESTEP_CROUCH_D_RDY",
+      "BIGMALE": "BGMSIDESTEP_CROUCH_D_RDY",
+      "STOCKYMALE": "RGMSIDESTEP_CROUCH_D_RDY",
+      "REGFEMALE": "RGFSIDESTEP_CROUCH_D_RDY"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "WALKING_WEAPON_RDY",
+    "label": "WALKING WITH RIFLE RDY",
+    "base": {
+      "REGMALE": "RGMWALK_R_RDY",
+      "BIGMALE": "BGMWALK_R_RDY",
+      "STOCKYMALE": "RGMWALK_R_RDY",
+      "REGFEMALE": "RGFWALK_R_RDY"
+    },
+    "item": {
+      "REGMALE": "RGMWALK_P_RDY",
+      "BIGMALE": "BGMWALK_P_RDY",
+      "STOCKYMALE": "RGMWALK_P_RDY",
+      "REGFEMALE": "RGFWALK_P_RDY"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "WALKING_DUAL_RDY",
+    "label": "WALKING WITH DUAL RDY",
+    "base": {
+      "REGMALE": "RGMWALK_D_RDY",
+      "BIGMALE": "BGMWALK_D_RDY",
+      "STOCKYMALE": "RGMWALK_D_RDY",
+      "REGFEMALE": "RGFWALK_D_RDY"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CROUCHEDMOVE_RIFLE_READY",
+    "label": "CROUCHEDMOVE_RIFLE_READY",
+    "base": {
+      "REGMALE": "RGMCROUCH_R_RDY",
+      "BIGMALE": "BGMCROUCH_R_RDY",
+      "STOCKYMALE": "RGMCROUCH_R_RDY",
+      "REGFEMALE": "RGFCROUCH_R_RDY"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CROUCHEDMOVE_PISTOL_READY",
+    "label": "CROUCHEDMOVE_PISTOL_READY",
+    "base": {
+      "REGMALE": "RGMCROUCH_P_RDY",
+      "BIGMALE": "BGMCROUCH_P_RDY",
+      "STOCKYMALE": "RGMCROUCH_P_RDY",
+      "REGFEMALE": "RGFCROUCH_P_RDY"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CROUCHEDMOVE_DUAL_READY",
+    "label": "CROUCHEDMOVE_DUAL_READY",
+    "base": {
+      "REGMALE": "RGMCROUCH_D_RDY",
+      "BIGMALE": "BGMCROUCH_D_RDY",
+      "STOCKYMALE": "RGMCROUCH_D_RDY",
+      "REGFEMALE": "RGFCROUCH_D_RDY"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "START_AID_PRN",
+    "label": "PRN START AID",
+    "base": {
+      "REGMALE": "RGMMEDICPRN",
+      "BIGMALE": "BGMMEDICPRN",
+      "STOCKYMALE": "RGMMEDICPRN",
+      "REGFEMALE": "RGFMEDICPRN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "GIVING_AID_PRN",
+    "label": "PRN GIVING AID",
+    "base": {
+      "REGMALE": "RGMMEDICPRN",
+      "BIGMALE": "BGMMEDICPRN",
+      "STOCKYMALE": "RGMMEDICPRN",
+      "REGFEMALE": "RGFMEDICPRN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_AID_PRN",
+    "label": "PRN END AID",
+    "base": {
+      "REGMALE": "RGMMEDICPRN",
+      "BIGMALE": "BGMMEDICPRN",
+      "STOCKYMALE": "RGMMEDICPRN",
+      "REGFEMALE": "RGFMEDICPRN"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "ADJACENT_GET_ITEM_CROUCHED",
+    "label": "GET ADJACENT ITEM CROUCHED",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "STEAL_ITEM_CROUCHED",
+    "label": "STEAL ITEM CROUCHED",
+    "base": {
+      "REGMALE": "RGMMEDIC",
+      "BIGMALE": "BGMMEDIC",
+      "STOCKYMALE": "RGMMEDIC",
+      "REGFEMALE": "RGFMEDIC"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BURST_DUAL_STAND",
+    "label": "STAND BURST DUAL",
+    "base": {
+      "REGMALE": "RGMSTANDDWALAIM",
+      "BIGMALE": "BGMSTANDDWALAIM",
+      "STOCKYMALE": "RGMSTANDDWALAIM",
+      "REGFEMALE": "RGFSTANDDWALAIM"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {
+      "REGMALE": "RGMWATER_DBLSHT",
+      "BIGMALE": "BGMWATER_DBLSHT",
+      "STOCKYMALE": "RGMWATER_DBLSHT",
+      "REGFEMALE": "RGFWATER_DBLSHT"
+    }
+  },
+  {
+    "id": "BURST_DUAL_CROUCH",
+    "label": "CROUCH BURST DUAL",
+    "base": {
+      "REGMALE": "RGMCDBLSHOT",
+      "BIGMALE": "BGMCDBLSHOT",
+      "STOCKYMALE": "RGMCDBLSHOT",
+      "REGFEMALE": "RGFCDBLSHOT"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BURST_DUAL_PRONE",
+    "label": "PRONE BURST DUAL",
+    "base": {
+      "REGMALE": "RGMDWPRONE",
+      "BIGMALE": "BGMDWPRONE",
+      "STOCKYMALE": "RGMDWPRONE",
+      "REGFEMALE": "RGFDWPRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "READY_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE READY",
+    "base": {
+      "REGMALE": "RGM_HIP_AIM",
+      "BIGMALE": "BGM_HIP_AIM",
+      "STOCKYMALE": "RGM_HIP_AIM",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGM_PFSHOT_AIM",
+      "BIGMALE": "BGM_PFSHOT_AIM",
+      "STOCKYMALE": "RGM_PFSHOT_AIM",
+      "REGFEMALE": "RGF_PFSHOT_AIM"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGM_WATER_HIP_AIM",
+      "BIGMALE": "BGM_WATER_HIP_AIM",
+      "STOCKYMALE": "RGM_WATER_HIP_AIM",
+      "REGFEMALE": "RGF_WATER_HIP_AIM"
+    },
+    "waterOther": {}
+  },
+  {
+    "id": "AIM_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE AIM",
+    "base": {
+      "REGMALE": "RGM_HIP_AIM",
+      "BIGMALE": "BGM_HIP_AIM",
+      "STOCKYMALE": "RGM_HIP_AIM",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGM_PFSHOT_AIM",
+      "BIGMALE": "BGM_PFSHOT_AIM",
+      "STOCKYMALE": "RGM_PFSHOT_AIM",
+      "REGFEMALE": "RGF_PFSHOT_AIM"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGM_WATER_HIP_AIM",
+      "BIGMALE": "BGM_WATER_HIP_AIM",
+      "STOCKYMALE": "RGM_WATER_HIP_AIM",
+      "REGFEMALE": "RGF_WATER_HIP_AIM"
+    },
+    "waterOther": {}
+  },
+  {
+    "id": "SHOOT_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE SHOOT",
+    "base": {
+      "REGMALE": "RGM_HIP_AIM",
+      "BIGMALE": "BGM_HIP_AIM",
+      "STOCKYMALE": "RGM_HIP_AIM",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGM_PFSHOT_AIM",
+      "BIGMALE": "BGM_PFSHOT_AIM",
+      "STOCKYMALE": "RGM_PFSHOT_AIM",
+      "REGFEMALE": "RGF_PFSHOT_AIM"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGM_WATER_HIP_AIM",
+      "BIGMALE": "BGM_WATER_HIP_AIM",
+      "STOCKYMALE": "RGM_WATER_HIP_AIM",
+      "REGFEMALE": "RGF_WATER_HIP_AIM"
+    },
+    "waterOther": {}
+  },
+  {
+    "id": "BURST_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE BURST",
+    "base": {
+      "REGMALE": "RGM_HIP_AIM",
+      "BIGMALE": "BGM_HIP_AIM",
+      "STOCKYMALE": "RGM_HIP_AIM",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGM_PFSHOT_AIM",
+      "BIGMALE": "BGM_PFSHOT_AIM",
+      "STOCKYMALE": "RGM_PFSHOT_AIM",
+      "REGFEMALE": "RGF_PFSHOT_AIM"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGM_WATER_HIP_AIM",
+      "BIGMALE": "BGM_WATER_HIP_AIM",
+      "STOCKYMALE": "RGM_WATER_HIP_AIM",
+      "REGFEMALE": "RGF_WATER_HIP_AIM"
+    },
+    "waterOther": {}
+  },
+  {
+    "id": "LOW_SHOT_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE LOW",
+    "base": {
+      "REGMALE": "RGM_HIP_LOW",
+      "BIGMALE": "BGMSHOOT_LOW",
+      "STOCKYMALE": "RGM_HIP_LOW",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGMPISTOLSHOOTLOW",
+      "BIGMALE": "BGMPISTOLSHOOTLOW",
+      "STOCKYMALE": "RGMPISTOLSHOOTLOW",
+      "REGFEMALE": "RGFPISTOLSHOOTLOW"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "LOW_BURST_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE LOW BURST",
+    "base": {
+      "REGMALE": "RGM_HIP_LOW",
+      "BIGMALE": "BGMSHOOT_LOW",
+      "STOCKYMALE": "RGM_HIP_LOW",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGMPISTOLSHOOTLOW",
+      "BIGMALE": "BGMPISTOLSHOOTLOW",
+      "STOCKYMALE": "RGMPISTOLSHOOTLOW",
+      "REGFEMALE": "RGFPISTOLSHOOTLOW"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "UNREADY_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE UNREADY",
+    "base": {
+      "REGMALE": "RGM_HIP_AIM",
+      "BIGMALE": "BGM_HIP_AIM",
+      "STOCKYMALE": "RGM_HIP_AIM",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGM_PFSHOT_AIM",
+      "BIGMALE": "BGM_PFSHOT_AIM",
+      "STOCKYMALE": "RGM_PFSHOT_AIM",
+      "REGFEMALE": "RGF_PFSHOT_AIM"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGM_WATER_HIP_AIM",
+      "BIGMALE": "BGM_WATER_HIP_AIM",
+      "STOCKYMALE": "RGM_WATER_HIP_AIM",
+      "REGFEMALE": "RGF_WATER_HIP_AIM"
+    },
+    "waterOther": {}
+  },
+  {
+    "id": "UNJAM_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE UNJAM",
+    "base": {
+      "REGMALE": "RGM_HIP_AIM",
+      "BIGMALE": "BGM_HIP_AIM",
+      "STOCKYMALE": "RGM_HIP_AIM",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGM_PFSHOT_AIM",
+      "BIGMALE": "BGM_PFSHOT_AIM",
+      "STOCKYMALE": "RGM_PFSHOT_AIM",
+      "REGFEMALE": "RGF_PFSHOT_AIM"
+    },
+    "waterTwoHanded": {
+      "REGMALE": "RGM_WATER_HIP_AIM",
+      "BIGMALE": "BGM_WATER_HIP_AIM",
+      "STOCKYMALE": "RGM_WATER_HIP_AIM",
+      "REGFEMALE": "RGF_WATER_HIP_AIM"
+    },
+    "waterOther": {}
+  },
+  {
+    "id": "LOW_UNJAM_ALTERNATIVE_STAND",
+    "label": "ALTERNATIVE LOW UNJAM",
+    "base": {
+      "REGMALE": "RGM_HIP_LOW",
+      "BIGMALE": "BGMSHOOT_LOW",
+      "STOCKYMALE": "RGM_HIP_LOW",
+      "REGFEMALE": "RGF_HIP_AIM"
+    },
+    "item": {
+      "REGMALE": "RGMPISTOLSHOOTLOW",
+      "BIGMALE": "BGMPISTOLSHOOTLOW",
+      "STOCKYMALE": "RGMPISTOLSHOOTLOW",
+      "REGFEMALE": "RGFPISTOLSHOOTLOW"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "WALKING_ALTERNATIVE_RDY",
+    "label": "ALTERNATIVE WALKING",
+    "base": {
+      "REGMALE": "RGMBASICWALKING",
+      "BIGMALE": "BGMWALKING",
+      "STOCKYMALE": "RGMBASICWALKING",
+      "REGFEMALE": "RGFWALKING"
+    },
+    "item": {
+      "REGMALE": "RGMWALK_P_RDY",
+      "BIGMALE": "BGMWALK_P_RDY",
+      "STOCKYMALE": "RGMWALK_P_RDY",
+      "REGFEMALE": "RGFWALK_P_RDY"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "SIDE_STEP_ALTERNATIVE_RDY",
+    "label": "ALTERNATIVE SIDE STEP",
+    "base": {
+      "REGMALE": "RGMSIDESTEP",
+      "BIGMALE": "BGMSIDESTEP",
+      "STOCKYMALE": "RGMSIDESTEP",
+      "REGFEMALE": "RGFSIDESTEP"
+    },
+    "item": {
+      "REGMALE": "RGMSIDESTEP_P_RDY",
+      "BIGMALE": "BGMSIDESTEP_P_RDY",
+      "STOCKYMALE": "RGMSIDESTEP_P_RDY",
+      "REGFEMALE": "RGFSIDESTEP_P_RDY"
+    },
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "START_COWER_CROUCHED",
+    "label": "COWER CROUCHED",
+    "base": {
+      "REGMALE": "RGMCOWER",
+      "BIGMALE": "BGMCOWER",
+      "STOCKYMALE": "RGMCOWER",
+      "REGFEMALE": "RGFCOWER"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_COWER_CROUCHED",
+    "label": "END COWER CROUCHED",
+    "base": {
+      "REGMALE": "RGMCOWER",
+      "BIGMALE": "BGMCOWER",
+      "STOCKYMALE": "RGMCOWER",
+      "REGFEMALE": "RGFCOWER"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "START_COWER_PRONE",
+    "label": "START COWER PRONE",
+    "base": {
+      "REGMALE": "RGM_COWER_PRONE",
+      "BIGMALE": "BGM_COWER_PRONE",
+      "STOCKYMALE": "RGM_COWER_PRONE",
+      "REGFEMALE": "RGF_COWER_PRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "COWERING_PRONE",
+    "label": "COWER PRONE",
+    "base": {
+      "REGMALE": "RGM_COWER_PRONE",
+      "BIGMALE": "BGM_COWER_PRONE",
+      "STOCKYMALE": "RGM_COWER_PRONE",
+      "REGFEMALE": "RGF_COWER_PRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "END_COWER_PRONE",
+    "label": "End COWER PRONE",
+    "base": {
+      "REGMALE": "RGM_COWER_PRONE",
+      "BIGMALE": "BGM_COWER_PRONE",
+      "STOCKYMALE": "RGM_COWER_PRONE",
+      "REGFEMALE": "RGF_COWER_PRONE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BIGMERC_IDLE_NECK2",
+    "label": "BIGMERC IDLE NECK 2",
+    "base": {
+      "BIGMALE": "BGMIDLENECK2"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FOCUSED_PUNCH",
+    "label": "FOCUSED PUNCH",
+    "base": {
+      "REGMALE": "RGMPUNCH",
+      "BIGMALE": "BGMPUNCH",
+      "STOCKYMALE": "RGMPUNCH",
+      "REGFEMALE": "RGFPUNCH"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FOCUSED_STAB",
+    "label": "FOCUSED STAB",
+    "base": {
+      "REGMALE": "RGMSTAB",
+      "BIGMALE": "BGMSTAB",
+      "STOCKYMALE": "RGMSTAB",
+      "REGFEMALE": "RGFSTAB"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "HTH_KICK",
+    "label": "HTH KICK",
+    "base": {
+      "REGMALE": "RGMKICKDOOR",
+      "BIGMALE": "BGMKICKDOOR",
+      "STOCKYMALE": "RGMKICKDOOR",
+      "REGFEMALE": "RGFKICKDOOR"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "FOCUSED_HTH_KICK",
+    "label": "FOCUSED HTH KICK",
+    "base": {
+      "REGMALE": "RGMKICKDOOR",
+      "BIGMALE": "BGMKICKDOOR",
+      "STOCKYMALE": "RGMKICKDOOR",
+      "REGFEMALE": "RGFKICKDOOR"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "LONG_JUMP",
+    "label": "LONG JUMP",
+    "base": {
+      "REGMALE": "RGMJUMPOVER",
+      "BIGMALE": "BGMJUMPOVER",
+      "STOCKYMALE": "RGMJUMPOVER",
+      "REGFEMALE": "RGFJUMPOVER"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CRYO_DEATH",
+    "label": "CRYO_DEATH",
+    "base": {
+      "REGMALE": "CRYO_EXPLODE",
+      "BIGMALE": "CRYO_EXPLODE",
+      "STOCKYMALE": "CRYO_EXPLODE",
+      "REGFEMALE": "CRYO_EXPLODE"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "CRYO_DEATH_CROUCHED",
+    "label": "CRYO_DEATH_CROUCHED",
+    "base": {
+      "REGMALE": "CRYO_EXPLODE_CROUCHED",
+      "BIGMALE": "CRYO_EXPLODE_CROUCHED",
+      "STOCKYMALE": "CRYO_EXPLODE_CROUCHED",
+      "REGFEMALE": "CRYO_EXPLODE_CROUCHED"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BAYONET_STAB_STANDING_VS_STANDING",
+    "label": "BAYONET_STAB_STANDING_VS_STANDING",
+    "base": {
+      "REGMALE": "RGMBAYONET_S_S",
+      "BIGMALE": "BGMBAYONET_S_S",
+      "STOCKYMALE": "RGMBAYONET_S_S",
+      "REGFEMALE": "RGFBAYONET_S_S"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  },
+  {
+    "id": "BAYONET_STAB_STANDING_VS_PRONE",
+    "label": "BAYONET_STAB_STANDING_VS_PRONE",
+    "base": {
+      "REGMALE": "RGMBAYONET_S_P",
+      "BIGMALE": "BGMBAYONET_S_P",
+      "STOCKYMALE": "RGMBAYONET_S_P",
+      "REGFEMALE": "RGFBAYONET_S_P"
+    },
+    "item": {},
+    "waterTwoHanded": {},
+    "waterOther": {}
+  }
+]

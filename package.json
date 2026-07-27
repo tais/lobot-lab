@@ -1,0 +1,36 @@
+{
+  "name": "lobot-lab",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Native JA2 1.13 Logical Body Type configuration visualizer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tais/lobot-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tais/lobot-lab/issues"
+  },
+  "homepage": "https://github.com/tais/lobot-lab#readme",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "catalog": "node tools/extract-animation-catalog.mjs",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "^2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5",
+    "@tauri-apps/cli": "^2",
+    "@types/node": "^22",
+    "svelte": "^5",
+    "svelte-check": "^4",
+    "typescript": "^5",
+    "vite": "^6"
+  }
+}

@@ -1,0 +1,61 @@
+name: Bug report
+description: Report reproducible LOBOT Lab behavior
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not attach proprietary JA2 files or include sensitive local paths.
+
+  - type: input
+    id: version
+    attributes:
+      label: LOBOT Lab version
+      placeholder: "0.1.0 or commit hash"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+
+  - type: textarea
+    id: data-roots
+    attributes:
+      label: Data-root order
+      description: List generic root labels in low-to-high priority order; omit personal path components.
+      placeholder: |
+        Base Data
+        Data-1.13
+        Mod Data
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Include the character, inventory, action, direction, and frame where relevant.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: trace
+    attributes:
+      label: Engine trace or diagnostics
+      description: Paste text or attach a screenshot after checking it for sensitive information.

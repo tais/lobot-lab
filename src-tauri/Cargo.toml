@@ -1,0 +1,25 @@
+[package]
+name = "lobot-lab"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "A native JA2 1.13 LOBOT configuration visualizer"
+license = "MIT"
+repository = "https://github.com/tais/lobot-lab"
+homepage = "https://github.com/tais/lobot-lab"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+base64 = "0.22"
+regex = "1"
+roxmltree = "0.20"
+png = "0.17"
+
+[lints.rust]
+unexpected_cfgs = "allow"

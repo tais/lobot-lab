@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "LOBOT Lab",
+  "version": "0.1.0",
+  "identifier": "com.github.tais.lobotlab",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:1420",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "LOBOT Lab",
+        "width": 1420,
+        "height": 900,
+        "minWidth": 1040,
+        "minHeight": 680,
+        "backgroundColor": "#111315"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "category": "DeveloperTool",
+    "shortDescription": "Inspect and test JA2 1.13 LOBOT configurations",
+    "longDescription": "A native workbench for tracing, previewing, and auditing Jagged Alliance 2 v1.13 Logical Body Type configurations.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
