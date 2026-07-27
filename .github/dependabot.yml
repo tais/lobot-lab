@@ -10,6 +10,11 @@ updates:
         applies-to: version-updates
         patterns:
           - "*"
+    ignore:
+      # TypeScript 7 currently crashes svelte-check 4 before diagnostics run.
+      - dependency-name: typescript
+        update-types:
+          - version-update:semver-major
 
   - package-ecosystem: cargo
     directory: /src-tauri
